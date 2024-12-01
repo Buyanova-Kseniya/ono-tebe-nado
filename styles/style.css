@@ -1,1 +1,270 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  padding: 92px 50px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header_logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.header_menu {
+  align-self: center;
+  line-height: 21.13px;
+}
+
+.header_links-list {
+  display: flex;
+  gap: 25px;
+}
+
+.header_links-list-item {
+  text-decoration: underline;
+  list-style-type: circle;
+}
+
+.header_links-list-item_no-bullet {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.adress {
+  justify-self: end;
+  line-height: 24.3px;
+}
+
+.footer_adress {
+  line-height: 24.3px;
+}
+
+.cover {
+  position: relative;
+  display: grid;
+  width: 1100px;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 165px 50px 50px 50px;
+  margin-bottom: 188px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0 0 0 / 0.5);
+}
+
+.cover_title {
+  z-index: 2;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  display: block;
+  line-height: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.aligned-text_right {
+  display: block;
+  line-height: 1;
+  text-align: right;
+  padding: 20px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0em;
+}
+
+.cover_description {
+  color: #ffffff;
+  z-index: 2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 79px;
+  font-size: 22px;
+}
+
+.cover_description-text {
+  word-spacing: 17px;
+}
+
+.bet-button {
+  text-transform: uppercase;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid white;
+  padding: 12px 32px 11px 31px;
+  font-size: 22px;
+}
+
+.lots {
+  width: 1052px;
+  height: 692px;
+  margin-bottom: 181px;
+}
+
+.lots_heading {
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.lots_card-list {
+  display: flex;
+  padding: 20px;
+  column-gap: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+  justify-content: space-between;
+  background-size: cover;
+  width: 334px;
+  min-height: 563px;
+  position: relative;
+  background-position: center;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+
+.card_title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: underline;
+  z-index: 2;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 51px;
+}
+
+.card_text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  z-index: 2;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 48px;
+}
+
+.lots_look-more-link {
+  font: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.about_column {
+  display: grid;
+  grid-template-columns: 334px auto;
+}
+
+.about_title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  align-self: center;
+  justify-self: start;
+
+}
+
+.about_logo {
+  display: flex;
+  background-color: black;
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_logo-image {
+  height: 114px;
+  width: 148px;
+ 
+}
+
+.about_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  grid-column: 2;
+}
+
+.about_text-p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about {
+  margin-bottom: 180px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.footer_menu-list {
+  list-style: none;
+  justify-self: center;
+  text-align: center;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer_social-list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  list-style: none;
+  justify-self: end;
+}
+
+.footer_social-icon {
+  height: 48px;
+  width: 48px;
+}
