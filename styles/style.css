@@ -132,6 +132,7 @@
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 27px;
+  text-indent: 64px;
 }
 
 .lots_card-list {
@@ -191,6 +192,12 @@
   font: 20px;
   font-weight: 400;
   text-decoration: underline;
+}
+
+.link-with-marg {
+  text-indent: 64px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .about_column {
