@@ -1,9 +1,11 @@
+
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   padding: 92px 50px;
   font-weight: 400;
   font-size: 18px;
+  width: 1100px;
 }
 
 .header_logo-image {
@@ -18,7 +20,8 @@
 
 .header_links-list {
   display: flex;
-  gap: 25px;
+  gap: 33px;
+  text-underline-offset: 3px;
 }
 
 .header_links-list-item {
@@ -33,11 +36,10 @@
 
 .adress {
   justify-self: end;
+  align-self: center;
   line-height: 24.3px;
-}
-
-.footer_adress {
-  line-height: 24.3px;
+  text-underline-offset: 3px;
+  padding-right: 35px;
 }
 
 .cover {
@@ -50,7 +52,7 @@
   background-position: center;
   background-size: cover;
   padding: 165px 50px 50px 50px;
-  margin-bottom: 188px;
+  margin-bottom: 179px;
 }
 
 .overlay {
@@ -68,6 +70,7 @@
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #ffffff;
+  height: 355px;
 }
 
 .aligned-text {
@@ -83,9 +86,9 @@
 
 .aligned-text_right {
   display: block;
-  line-height: 1;
+  line-height: 0.5;
   text-align: right;
-  padding: 20px;
+  padding: 20px 0px 20px 20px;
 }
 
 .letter-spacing-extended {
@@ -101,14 +104,16 @@
   z-index: 2;
   text-transform: uppercase;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 79px;
+  justify-content: space-between;
+  align-items: end;
+  gap: 75px;
+  line-height: 51px;
   font-size: 22px;
 }
 
 .cover_description-text {
-  word-spacing: 17px;
+  word-spacing: 18px;
+  margin-left: 30px;
 }
 
 .bet-button {
@@ -131,7 +136,7 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin-bottom: 27px;
+  margin-bottom: 8px;
   text-indent: 64px;
 }
 
@@ -140,6 +145,7 @@
   padding: 20px;
   column-gap: 25px;
   list-style-type: none;
+  margin-bottom: 9px;
 }
 
 .card {
@@ -203,7 +209,8 @@
 
 .about_column {
   display: grid;
-  grid-template-columns: 334px auto;
+  grid-template-columns: 240px 688px;
+  column-gap: 72px;
 }
 
 .about_title {
@@ -212,7 +219,7 @@
   text-transform: uppercase;
   align-self: center;
   justify-self: start;
-
+  padding-top: 10px;
 }
 
 .about_logo {
@@ -236,6 +243,8 @@
   flex-direction: column;
   gap: 24px;
   grid-column: 2;
+  padding-top: 10px;
+  line-height: 24px;
 }
 
 .about_text-p {
@@ -245,18 +254,23 @@
 
 .about {
   margin-bottom: 180px;
+  margin-left: 70px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
+  align-content: center;
 }
 
 .footer_menu-list {
   list-style: none;
   justify-self: center;
   text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-underline-offset: 3px;
 }
 
 .footer__menu-link_active {
@@ -270,9 +284,17 @@
   gap: 48px;
   list-style: none;
   justify-self: end;
+  padding-right: 50px;
 }
 
 .footer_social-icon {
   height: 48px;
   width: 48px;
+}
+
+.footer_adress {
+  line-height: 24.3px;
+  padding-left: 50px;
+  letter-spacing: 1px;
+  text-underline-offset: 3px;
 }
