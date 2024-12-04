@@ -289,7 +289,7 @@
 
 .footer_social-list {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 48px;
   list-style: none;
   justify-self: end;
